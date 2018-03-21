@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 
-import corps_pendu as imp
+import corps_pendu_LINUX as imp
 import os
-from themes_pendu import choix_theme
+from themes_pendu_LINUX import choix_theme
 
 underline="\033[4m" #sous-ligne le texte
 normal="\x1b[0m" #mise en forme normal
