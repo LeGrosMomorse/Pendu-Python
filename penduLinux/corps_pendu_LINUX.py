@@ -29,7 +29,7 @@ def conversion_char(l:list):
 	for i in range(len(l)): #on parcourt l'input avec une boucle for
 		bob+=l[i] #à chaque index de celle-ci on ajoute a notre variable bob chaque index converti en STR de notre liste
 	return(bob) #à la fin de la fonction, on retourne la CHAR 'bob'
-     imp
+
 def tiret(mot:str): 
 	"""cette fonction transforme un mot en liste composée de n tiret qui correspondent à la longueur du mot (ex:["m","_","_","_","_","_","_"])"""
 	l=[] #on initialise un liste 'l' vide
