@@ -2,7 +2,7 @@
 #-*-coding:utf-8-*-
 
 from random import randint
-import corps_pendu as cp
+import corps_pendu_LINUX as cp
 
 global underline, normal
 underline="\033[4m"
